@@ -20,7 +20,8 @@ public class AlphaGiveaway extends JavaPlugin implements CommandExecutor {
 
     // Grupos considerados staff/dev/etc - NUNCA recebem o rank alpha por este programa
     private static final Set<String> STAFF_GROUPS = new HashSet<>(Arrays.asList(
-            "owner", "dono", "admin", "mod", "helper", "builder"
+            "owner", "dono", "admin", "mod", "helper", "builder",
+            "admdeveloper", "ajudante-"
     ));
 
     private static final String RANK_GROUP = "alpha";
@@ -97,4 +98,4 @@ public class AlphaGiveaway extends JavaPlugin implements CommandExecutor {
         }
         return false;
     }
-}
+}                                                           
