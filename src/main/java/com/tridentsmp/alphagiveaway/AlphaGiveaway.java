@@ -28,7 +28,6 @@ public class AlphaGiveaway extends JavaPlugin implements CommandExecutor {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig();
         getCommand("alphagiveaway").setExecutor(this);
         getLogger().info("AlphaGiveaway carregado. Use /alphagiveaway dryrun para conferir a lista antes de aplicar.");
     }
