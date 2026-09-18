@@ -25,7 +25,7 @@ public class AlphaGiveaway extends JavaPlugin implements CommandExecutor {
     ));
 
     private static final String RANK_GROUP = "alpha";
-    private static final int SLOTS = 19;
+    private static final int SLOTS = 18;
 
     @Override
     public void onEnable() {
